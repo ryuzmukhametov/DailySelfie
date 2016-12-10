@@ -108,7 +108,7 @@ public class MainActivity extends ListActivity {
 
     public void setupAlarm()
     {
-        Long time = new GregorianCalendar().getTimeInMillis()+ 60*1000;
+        Long time = new GregorianCalendar().getTimeInMillis()+ 2*60*1000;
 
         Intent intentAlarm = new Intent(this, AlarmNotificationReceiver.class);
 

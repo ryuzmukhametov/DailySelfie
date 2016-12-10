@@ -21,14 +21,16 @@
         >
 
         <Button
+
             android:id="@+id/button"
-            android:background="@color/colorPrimaryDark"
-            android:text="@string/take_photo"
+            android:background="@drawable/camera"
             android:textColor="@android:color/white"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_width="80dp"
+            android:layout_width="50dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
             android:layout_height="match_parent"/>
 
 
